@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.archive.kv.ndpi.view.AboutWindowController">
+   <children>
+      <Button fx:id="closeWindow" layoutX="235.0" layoutY="238.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="25.0" prefWidth="113.0" text="Закрити" />
+      <TextArea layoutX="42.0" layoutY="86.0" prefHeight="90.0" prefWidth="316.0" text="Програма показує фактичне місце зберігання&#10;документів з архіву КВ НДПІ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="62.0" layoutY="45.0" text="Інформація про програму">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
